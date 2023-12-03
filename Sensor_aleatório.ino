@@ -33,7 +33,7 @@ void loop()
   // sensor
 
   digitalWrite(trig, LOW);
-  delayMicroseconds(50);
+  delayMicroseconds(5000);
   digitalWrite(trig, HIGH);
   delayMicroseconds(50);
   digitalWrite(trig, LOW);
