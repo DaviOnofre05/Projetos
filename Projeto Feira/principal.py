@@ -127,6 +127,7 @@ while True:
 #não é da escola
         
   def fora1():
+    
     global pontos1
     global acertos1
     #pergunta 1, perguntas e resspostas devem ser alteradas, para a versão original
@@ -256,7 +257,7 @@ while True:
   elif UMresp == 'N':
     for pergunta in perguntas_2:
       pergunta()
-    print(f'\033[1;32mVocê acertou {acertos} perguntas e ganhou {pontos} pontos.')
+    print(f'\033[1;32mVocê acertou {acertos1} perguntas e ganhou {pontos1} pontos.')
     pontos1 = acertos1 = 0
   
   retorno = str(input('\033[1;32mPara recomeçar digite R: ')).upper().strip()[0]
